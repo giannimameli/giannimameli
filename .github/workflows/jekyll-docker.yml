@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Mijn Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Over Mij</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>Over Mij</h2>
+            <p>Welkom! Ik ben een webontwikkelaar met een passie voor het creëren van mooie en functionele websites.</p>
+        </section>
+        <section id="projects">
+            <h2>Projecten</h2>
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>Beschrijving van project 1.</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>Beschrijving van project 2.</p>
+            </div>
+            <!-- Voeg meer projecten toe indien nodig -->
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Stuur me een <a href="mailto:email@example.com">e-mail</a> om in contact te komen.</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mijn Naam. Alle rechten voorbehouden.</p>
+    </footer>
+</body>
+</html>
